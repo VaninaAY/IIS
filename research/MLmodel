@@ -1,0 +1,32 @@
+artifact_path: models
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 2.16.0
+model_size_bytes: 4408715
+model_uuid: f6ddfef008334b3296af48e17e1f3f63
+run_id: d4a8f35ab134481cb800a7f5b7c627be
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "battery_power", "required": true}, {"type":
+    "long", "name": "px_width", "required": true}, {"type": "long", "name": "ram",
+    "required": true}, {"type": "long", "name": "sc_w", "required": true}, {"type":
+    "long", "name": "total_pixels", "required": true}]'
+  outputs: null
+  params: null
+utc_time_created: '2025-10-20 16:01:25.107617'

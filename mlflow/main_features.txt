@@ -1,0 +1,2 @@
+0,12,13,15,20
+battery_power,px_width,ram,sc_w,total_pixels
