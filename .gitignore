@@ -3,3 +3,4 @@
 *.venv
 mlflow/mlartifacts
 mlflow/mlruns.db
+**/__pycache__
